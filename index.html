@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MITR Foundation | Education for a Better Future</title>
+  <meta name="description" content="MITR Foundation is a charity organization focused on empowering lives through education." />
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#1E3A8A', // Deep Blue
+            secondary: '#F59E0B', // Warm Amber
+            accent: '#10B981' // Green
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow fixed w-full z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-primary">MITR Foundation</h1>
+      <nav class="space-x-6 hidden md:block">
+        <a href="#" class="hover:text-primary">Home</a>
+        <a href="#about" class="hover:text-primary">About</a>
+        <a href="#causes" class="hover:text-primary">Our Work</a>
+        <a href="#contact" class="hover:text-primary">Contact</a>
+        <a href="#donate" class="bg-secondary text-white px-4 py-2 rounded hover:bg-amber-500">Donate</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="pt-28 bg-primary text-white">
+    <div class="max-w-7xl mx-auto px-6 py-20 text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">Education Changes Everything</h2>
+      <p class="text-lg max-w-2xl mx-auto mb-8">MITR Foundation is committed to empowering underprivileged communities through quality education and lifelong learning opportunities.</p>
+      <div class="space-x-4">
+        <a href="#donate" class="bg-secondary px-6 py-3 rounded text-white font-semibold hover:bg-amber-500">Donate Now</a>
+        <a href="#contact" class="border border-white px-6 py-3 rounded font-semibold hover:bg-white hover:text-primary">Get Involved</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold text-primary mb-6">About MITR Foundation</h3>
+      <p class="max-w-3xl mx-auto text-lg">MITR Foundation is a non-profit organization dedicated to promoting education as a tool for social transformation. We believe every child deserves access to quality education regardless of background.</p>
+    </div>
+  </section>
+
+  <!-- Causes Section -->
+  <section id="causes" class="py-20">
+    <div class="max-w-7xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center text-primary mb-12">Our Educational Initiatives</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white shadow rounded-lg p-6 text-center">
+          <h4 class="text-xl font-semibold mb-4">School Support</h4>
+          <p>Providing books, uniforms, and infrastructure support to schools in need.</p>
+        </div>
+        <div class="bg-white shadow rounded-lg p-6 text-center">
+          <h4 class="text-xl font-semibold mb-4">Scholarships</h4>
+          <p>Helping deserving students continue their education without financial burden.</p>
+        </div>
+        <div class="bg-white shadow rounded-lg p-6 text-center">
+          <h4 class="text-xl font-semibold mb-4">Skill Development</h4>
+          <p>Empowering youth with practical skills and digital literacy programs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Donate Section -->
+  <section id="donate" class="py-20 bg-secondary text-white text-center">
+    <div class="max-w-4xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-6">Support Our Mission</h3>
+      <p class="mb-8 text-lg">Your contribution helps us educate more children and build a brighter future.</p>
+      <a href="#" class="bg-white text-secondary px-8 py-4 rounded font-bold hover:bg-gray-100">Donate Now</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center text-primary mb-8">Contact Us</h3>
+      <form class="grid gap-6">
+        <input type="text" placeholder="Your Name" class="p-3 border rounded" required />
+        <input type="email" placeholder="Your Email" class="p-3 border rounded" required />
+        <textarea placeholder="Your Message" rows="4" class="p-3 border rounded"></textarea>
+        <button class="bg-primary text-white py-3 rounded hover:bg-blue-900">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white py-6 text-center">
+    <p>© 2026 MITR Foundation. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
