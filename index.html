@@ -52,17 +52,30 @@
       MITR Foundation is committed to empowering underprivileged communities
       through quality education and lifelong learning opportunities.
     </p>
-    <div class="space-x-4">
-      <a href="#donate"
-        class="bg-secondary px-6 py-3 rounded text-white font-semibold hover:bg-amber-500">
-        Donate Now
-      </a>
-      <a href="#contact"
-        class="border border-white px-6 py-3 rounded font-semibold hover:bg-white hover:text-primary">
-        Get Involved
-      </a>
-    </div>
+    <div class="relative max-w-7xl mx-auto px-6 py-24 text-center text-white">
+  <h2 id="hero-title"
+      class="text-4xl md:text-5xl font-bold mb-6 opacity-0 translate-y-6 transition-all duration-700">
+    Education Changes Everything
+  </h2>
+
+  <p id="hero-text"
+     class="text-lg max-w-2xl mx-auto mb-8 opacity-0 translate-y-6 transition-all duration-700 delay-200">
+    MITR Foundation is committed to empowering underprivileged communities
+    through quality education and lifelong learning opportunities.
+  </p>
+
+  <div id="hero-buttons"
+       class="space-x-4 opacity-0 translate-y-6 transition-all duration-700 delay-400">
+    <a href="#donate"
+       class="bg-secondary px-6 py-3 rounded text-white font-semibold hover:bg-amber-500">
+      Donate Now
+    </a>
+    <a href="#contact"
+       class="border border-white px-6 py-3 rounded font-semibold hover:bg-white hover:text-primary">
+      Get Involved
+    </a>
   </div>
+</div>
 </section>
 
 
@@ -121,6 +134,13 @@
   <footer class="bg-primary text-white py-6 text-center">
     <p>© 2026 MITR Foundation. All rights reserved.</p>
   </footer>
+<script>
+  window.addEventListener('load', () => {
+    document.getElementById('hero-title').classList.remove('opacity-0', 'translate-y-6');
+    document.getElementById('hero-text').classList.remove('opacity-0', 'translate-y-6');
+    document.getElementById('hero-buttons').classList.remove('opacity-0', 'translate-y-6');
+  });
+</script>
 
 </body>
 </html>
