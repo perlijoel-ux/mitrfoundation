@@ -28,47 +28,26 @@
     <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
       <h1 class="text-2xl font-bold text-primary">MITR Foundation</h1>
       <nav class="space-x-6 hidden md:block">
-        <a href="#" class="hover:text-primary">Home</a>
-        <a href="#about" class="hover:text-primary">About</a>
-        <a href="#causes" class="hover:text-primary">Our Work</a>
-        <a href="#contact" class="hover:text-primary">Contact</a>
-        <a href="#donate" class="bg-secondary text-white px-4 py-2 rounded hover:bg-amber-500">Donate</a>
+        <a href="index.html" class="hover:text-primary">Home</a>
+        <a href="about.html" class="hover:text-primary">About</a>
+        <a href="causes.html" class="hover:text-primary">Our Work</a>
+        <a href="contact.html" class="hover:text-primary">Contact</a>
+        <a href="donate.html" class="bg-secondary text-white px-4 py-2 rounded hover:bg-amber-500">Donate</a>
       </nav>
     </div>
   </header>
 
-  <!-- Hero Section with Background Image -->
-<section class="pt-28 relative bg-cover bg-center"
-  style="background-image: url('assets/images/hero.jpg');">
-
-  <!-- Overlay -->
-  <div class="absolute inset-0 bg-primary/10"></div>
-<div class="relative max-w-7xl mx-auto px-6 py-24 text-center text-white">
-  <h2 id="hero-title"
-      class="text-4xl md:text-5xl font-bold mb-6 opacity-0 translate-y-6 transition-all duration-700">
-    Education Changes Everything
-  </h2>
-
-  <p id="hero-text"
-     class="text-lg max-w-2xl mx-auto mb-8 opacity-0 translate-y-6 transition-all duration-700 delay-200">
-    MITR Foundation is committed to empowering underprivileged communities
-    through quality education and lifelong learning opportunities.
-  </p>
-
-  <div id="hero-buttons"
-       class="space-x-4 opacity-0 translate-y-6 transition-all duration-700 delay-400">
-    <a href="#donate"
-       class="bg-secondary px-6 py-3 rounded text-white font-semibold hover:bg-amber-500">
-      Donate Now
-    </a>
-    <a href="#contact"
-       class="border border-white px-6 py-3 rounded font-semibold hover:bg-white hover:text-primary">
-      Get Involved
-    </a>
-  </div>
-</div>
-</section>
-
+  <!-- Hero Section -->
+  <section class="pt-28 bg-primary text-white">
+    <div class="max-w-7xl mx-auto px-6 py-20 text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">Education Changes Everything</h2>
+      <p class="text-lg max-w-2xl mx-auto mb-8">MITR Foundation is committed to empowering underprivileged communities through quality education and lifelong learning opportunities.</p>
+      <div class="space-x-4">
+        <a href="#donate" class="bg-secondary px-6 py-3 rounded text-white font-semibold hover:bg-amber-500">Donate Now</a>
+        <a href="#contact" class="border border-white px-6 py-3 rounded font-semibold hover:bg-white hover:text-primary">Get Involved</a>
+      </div>
+    </div>
+  </section>
 
   <!-- About Section -->
   <section id="about" class="py-20 bg-gray-50">
@@ -125,13 +104,6 @@
   <footer class="bg-primary text-white py-6 text-center">
     <p>© 2026 MITR Foundation. All rights reserved.</p>
   </footer>
-<script>
-  window.addEventListener('load', () => {
-    document.getElementById('hero-title').classList.remove('opacity-0', 'translate-y-6');
-    document.getElementById('hero-text').classList.remove('opacity-0', 'translate-y-6');
-    document.getElementById('hero-buttons').classList.remove('opacity-0', 'translate-y-6');
-  });
-</script>
 
 </body>
 </html>
